@@ -1,0 +1,122 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(98, 98, 99, 0.616);
+}
+
+form {  
+    margin: auto;
+    background-color: rgb(167, 201, 211);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.934);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center; 
+    color: rgb(0, 0, 0);
+    
+}
+
+fieldset {
+    border: 2px solid hsl(236, 84%, 31%);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(160, 247, 242, 0.836);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.966);
+    background-color: rgb(116, 176, 190);
+    border-radius: 5px;
+        }
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+    border-radius: 5px;
+}
+
+input,textarea {
+       margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 2px solid rgba(14, 151, 231, 0.752);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: rgba(241, 252, 251, 0.836);
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(108, 173, 210);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(8, 29, 222, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: rgb(49, 10, 189);
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(185, 216, 228);
+    box-shadow: 0 4px 8px rgba(63, 7, 107, 0.5);
+    /* Making the resume editable */
+    outline: none;
+}
+
+#resume-display h2 {
+    color: black;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(173, 165, 179, 0.5);
+    border: 5px solid rgb(85, 178, 231);
+    border-radius: 12px;
+    background-color: rgb(157, 235, 255);
+}
+
+#resume-display h3{
+    color: rgb(51, 15, 214);
+}
+
+#resume-display p>b{
+    color: rgb(0, 0, 0);
+    border: 2px solid ;
+    border-radius: 5px;
+}   
+
+#shareable-link-container{
+    margin: auto;
+    background-color: rgb(157, 235, 255);
+    border: 2px solid rgb(85, 178, 231);;
+    box-shadow: 0 4px 8px rgba(173, 165, 179, 0.5);
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+#shareable-link-container > h2{
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
